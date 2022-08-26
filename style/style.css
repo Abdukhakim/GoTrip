@@ -1,0 +1,274 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+a{
+    text-decoration: none;
+    color: #FFFFFF;
+}
+ul{
+    list-style: none;
+}
+
+.container {
+    max-width: 1140px;
+    margin: 0 auto;
+    width: 100%;
+    padding: 0 15px; 
+}
+.header {
+    background: #3E8989; 
+}
+
+.header__nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 1440px;
+    height: 100px;
+}
+
+.header__list {
+    display: flex;
+    gap: 30px;
+}
+
+.header__link {
+    font-family: 'RM';
+    font-size: 16px;
+    line-height: 19px;
+    padding-bottom: 5px;
+}
+
+.header__link:hover {
+    border-bottom: 3px solid #FFFFFF;
+}
+
+.header__form {
+    max-width: 290px;
+    width: 100%;
+    display: flex;
+}
+
+.header__form-search {
+    outline: none;
+    border: none;
+    border-radius: 20px 0px 0px 20px;
+    padding: 8px 0 8px 20px;
+    font-size: 16px;
+    line-height: 19px;
+    color: #898989;
+    width: 100%;
+}
+
+.header__btn {
+    background: #295E5E;
+    border-radius: 0px 20px 20px 0px;
+    font-size: 14px;
+    line-height: 17px;
+    color: #FFFFFF;
+    padding: 9px 14px;
+    border: none;
+}
+
+.header__content {
+    background: url(../images/nature.jpg) no-repeat center /cover;
+    height: 800px;
+    text-align: center;
+}
+
+.header__content-logo {
+    font-family: 'RSB';
+    font-size: 80px;
+    line-height: 95px;
+    color: #FFFFFF;
+    padding-top: 250px;
+    padding-bottom: 20px;
+}
+
+.header__content-text {
+    font-size: 40px;
+    line-height: 47px;
+    color: #FFFFFF;
+    font-family: 'RM';
+    padding-bottom: 50px;
+}
+
+.header__content-link {  
+    background: #B4436C;
+    border-radius: 30px;
+    font-size: 18px;
+    line-height: 22px;
+    color: #FFFFFF;
+    font-family: 'RSB';
+    padding: 15px 77px;
+    transition: background 500ms, color 500ms;
+}
+
+.header__content-link:hover {
+    background: white; 
+    color: #B4436C;
+}
+.main__top-logo {
+    font-size: 40px;
+    line-height: 48px;
+    color: #3E8989;
+    font-family: 'RSB';
+    text-align: center;
+    padding-top: 80px;
+    padding-bottom: 50px;
+}
+
+.top__image {
+    margin-right: 20px;
+    margin-bottom: 97px;
+}
+
+.top__text {
+    font-family: 'RR';
+}
+
+.main__top-block {
+    display: flex;
+}
+
+.bottom__text {
+    margin-top: 20px;
+}
+
+.main__bottom-logo {
+    font-size: 40px;
+    line-height: 48px; 
+    color: #3E8989;
+    font-family: 'RSB';
+    text-align: center;
+    margin-bottom: 53px;
+}
+
+.section__clothes {
+    display: flex;
+    align-items: center; 
+}
+
+.buttom__image-first {
+    background: #EFEFEF;
+    padding:  2px 33px;
+    margin-right: 20px;
+}
+
+.buttom__image-second {
+    background: #EFEFEF;
+    padding: 78px 23px;
+    margin-right: 20px;
+}
+
+.buttom__image-third {
+    background: #EFEFEF;
+    padding: 75px 2px; 
+    margin-right: 20px;
+}
+
+.buttom__image-fourth {
+    background: #EFEFEF;
+    padding: 19px 0;
+}
+
+.section__clothes-title {
+    font-size: 24px;
+    line-height: 29px;
+    color: #000000;
+    text-align: center;
+    margin-top: 30px;
+    font-family: 'RSB';
+    transition: color 200ms;
+}
+
+.section__clothes-title:hover {
+    color: #B4436C;
+}
+
+.bottom__logo-second {
+    font-size: 40px;
+    line-height: 48px;
+    color: #3E8989;
+    font-family: 'RSB';
+    margin-top: 100px;
+}
+
+.main__bottom-text {
+    font-size: 20px;
+    line-height: 24px;
+    color: #000000;
+    width: 555px;
+    margin-top: 50px;
+    margin-right: 388px;
+    font-family: 'RR';
+}
+
+.main__bottom-second {
+    display: flex;
+}
+
+.bottom__second-inside {
+    margin-top: 50px;
+}
+
+.main__bottom-link {
+    font-size: 20px;
+    line-height: 24px;
+    color: #000000;
+    font-family: 'RR';
+}
+
+.bottom__text-second {
+    font-size: 20px;
+    height: 24px;
+    color: #000000;
+    margin-top: 20px;
+    margin-bottom: 104px;
+    font-family: 'RR';
+}
+
+.footer {
+    height: 150px;
+    background: #3E8989;
+}
+
+.footer__list {
+    display: flex;
+    justify-content: center;
+    padding-top: 40px;
+    gap: 30px;
+}
+
+.footer__link {
+    font-size: 16px;
+    line-height: 19px;
+    color: #FFFFFF;
+    font-family: 'RM';
+}
+
+.footer__container {
+    display: flex;
+    justify-content: center;
+    gap: 6px;
+    padding: 59px 0 15px 0;
+}
+
+.footer__text {
+    font-size: 14px;
+    line-height: 17px;
+    color: #FFFFFF;
+    font-family: 'RR';
+}
+
+.footer__link-second {
+    font-size: 14px;
+    line-height: 17px;
+    color: #FFFFFF;
+    font-family: 'RR';
+}
+
+
+
